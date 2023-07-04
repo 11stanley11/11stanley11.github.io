@@ -1,0 +1,70 @@
+theme = "PaperMod"
+
+baseurl = "https://11stanley11.github.io"
+# set baseurl
+
+languageCode = "zh-tw"
+# set Blog language
+
+title = "Where am I"
+# set website title
+
+buildDrafts = false
+# generate drafts or not (false suggested)
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Who am I"
+subtitle = "Who am I? Who are u? Where are we?"
+imageUrl = "img/avatar.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "myAvatar"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/11stanley11"
+
+[[params.socialIcons]]
+name = "steam"
+url = "https://steamcommunity.com/profiles/76561199028224377/"
+
+[params] 
+ShowBreadCrumbs = true    
+#show article's table of content
+ShowReadingTime = true    
+#show reading time so far
+ShowShareButtons = true    
+#show share buttons
+ShowPostNavLinks = true    
+#show other post links
+
+[params.cover]
+linkFullImages = true    
+#click on img to view in fullscreen
